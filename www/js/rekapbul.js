@@ -29,6 +29,7 @@ $('document').ready(function(){
 			"<td width='30px'>S:<br/>"+data.s+"</td>"+
 			"<td width='30px'>I:<br/>"+data.i+"</td>"+
 			"<td width='30px'>A:<br/>"+data.a+"</td>"+
+			"<td width='30px'>T:<br/>"+data.t+"</td>"+
 			"</tr>"+
 			"</table>"+
 			"</div>");
