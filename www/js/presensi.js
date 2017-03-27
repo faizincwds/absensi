@@ -24,6 +24,7 @@ $('document').ready(function(){
 			"<a class='btn btn-primary tombol' onClick=updatePresensi('"+data.nis+"','Sakit')>Sakit</a>"+
 			"<a class='btn btn-success tombol' onClick=updatePresensi('"+data.nis+"','Ijin')>Ijin</a>"+
 			"<a class='btn btn-danger tombol' onClick=updatePresensi('"+data.nis+"','Alpa')>Alpha</a>"+
+			"<a class='btn btn-warning tombol' onClick=updatePresensi('"+data.nis+"','Terlambat')>Telat</a>"+
 			"</li>");
 		});
 	});
