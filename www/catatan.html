@@ -7,7 +7,6 @@
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
-
 	<script src="js/menutama.js"></script>
     <link href="css/set-masuk.css" type="text/css" rel="stylesheet">
 	
@@ -17,12 +16,12 @@
 	#id-kelas {font-family: cursive;}
 	.font-nis{ font-family: cursive;}
 	.list-group-item{padding-top:10px; background:#0e93c5; color:#fff; margin-bottom:1%; margin-top:1%;}
-	#warna1{background: #ff6f08; color: #fff; font-family: cursive; text-align: center;}
+	.warna1{background: #ff6f08; color: #fff; font-family: Arial; font-size:18pt; text-align: center;}
+	.warna3{background: #bfbcbc; color: #fff; font-family: cursive; text-align: center;}
 	#warna2{background: #c50000; color: #fff; font-family: cursive; text-align: center;}
-	#warna3{background: #083e65; color: #fff; font-family: cursive; text-align: center;}
-	#warna4{background: #966100; color: #fff; font-family: cursive; text-align: center;}
-	#warna5{background: #96004c; color: #fff; font-family: cursive; text-align: center;}
-	#warna6{background: #009643; color: #fff; font-family: cursive; text-align: center;}
+	#p{text-align:left; font-size:14px;}
+	b{color:#2700c5;}
+	i{color:  #006902; font-size:20pt;}
 	</style>
 </head>
 <body>
@@ -34,7 +33,7 @@
 			<font class="font">SMK PANCA BHAKTI BANJARNEGARA <br> [ Absensi Online ]</font>
 		</div>
 	</div>
-
+	
 <div class="container-fluid">
 	<div class="list-group-item">
 		<div id='login-user'>
@@ -42,23 +41,32 @@
 			<div id='id-nama'></div>
 			<div id='id-kelas'></div>
 		</div>
-	</div>
+	</div>	
 	
 	
-	<div class="list-group">
-		<a class="list-group-item" id="warna1" href="rekaphari.html">LAPORAN HARIAN</a>
-		<a class="list-group-item" id="warna2" href="rekapbul.html">LAPORAN BULANAN</a>
-		<a class="list-group-item" id="warna3" href="input.html">INPUT KEHADIRAN</a>
-		<a class="list-group-item" id="warna4" href="catatan.html">CATATAN</a>
-		<a class="list-group-item" id="warna5" href="about.html">TENTANG KAMI</a>
-		<a class="list-group-item" id="warna6" href="index.html">LOG OUT</a>
-	</div>
+<div class=" list-group-item warna1"> 	
+	<p><u>Catatan !</u><p>
+	<p id='p'>1. <b>Laporan Harian </b>: Untuk menampilkan hasil Inputan Data Absensi pada hari ini.</p>
+	<p id='p'>2. <b>Laporan Bulanan</b> : Untuk menampilkan hasil rekapan siswa setiap harinya.</p>
+	<p id='p'>3. <b>Input Kehadiran</b> : Untuk mendata siswa dengan keterangan yang sudah tersedia.</p>
+		<br>
+	<p id='p'> <i>Note</i> : Ketika anda menekan tombol <b>INPUT KEHADIRAN</b> itu artinya anda sudah mengAbsensi seluruh siswa tanpa harus mengklik tombol <b>Hadir</b> satu per satu.Jadi, anda tidak perlu repot-repot mengklik tombol HADIR. </p>
+	
+	<p id='p'>Nah, jika ada siswa yang tidak berangkat anda tinggal mengklik tombol keterangan yang sudah disediakan dan fungsinya adalah untuk mengUpdate data tersebut. </p>
+
+</div>
 </div>
 
-		
+<br>
+	<div class="container-fluid">
+		<a class='list-group-item' id="warna2" href='menutama.html'>Kembali</a>
+	</div>
+
+	<br>
+	
 <div class="footer">
 		<p>Copyright &copy; PB-Team | Faizin Ahmad - 2017</p>
-
 </div>
+
 </body>
 </html>
